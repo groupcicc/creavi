@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>CREAVI</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.6 -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" >
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="css/AdminLTE.min.css">
+  <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
+        page. However, you can choose any other skin. Make sure you
+        apply the skin class to the body tag so the changes take effect.
+  -->
+  <link rel="stylesheet" href="css/skins/skin-blue.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<!--
+BODY TAG OPTIONS:
+=================
+Apply one or more of the following classes to get the
+desired effect
+|---------------------------------------------------------|
+| SKINS         | skin-blue                               |
+|               | skin-black                              |
+|               | skin-purple                             |
+|               | skin-yellow                             |
+|               | skin-red                                |
+|               | skin-green                              |
+|---------------------------------------------------------|
+|LAYOUT OPTIONS | fixed                                   |
+|               | layout-boxed                            |
+|               | layout-top-nav                          |
+|               | sidebar-collapse                        |
+|               | sidebar-mini                            |
+|---------------------------------------------------------|
+-->
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+
+  <!-- Main Header -->
+  <header class="main-header">
+
+    <!-- Logo -->
+    <a href="#" class="logo">
+      <!-- mini logo for sidebar mini 50x50 pixels -->
+      <span class="logo-mini"><b>Cr</b>v</span>
+      <!-- logo for regular state and mobile devices -->
+      <span class="logo-lg"><b>Cre</b>Avi</span>
+    </a>
+
+    <!-- Header Navbar -->
+    <nav class="navbar navbar-static-top" role="navigation">
+      <!-- Sidebar toggle button-->
+      <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
+      <!-- Navbar Right Menu -->
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+          <!-- Messages: style can be found in dropdown.less-->
+          <li class="dropdown messages-menu">
+            <!-- Menu toggle button -->
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-envelope-o"></i>
+              <span class="label label-success">4</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="header">Tiene 4 mensajes</li>
+              <li>
+                <!-- inner menu: contains the messages -->
+                <ul class="menu">
+                  <li><!-- start message -->
+                    <a href="#">
+                      <div class="pull-left">
+                        <!-- User Image -->
+                        <img src="img/user2-160x160.jpg" class="img-circle" alt="Imagen del Usuario">
+                      </div>
+                      <!-- Message title and timestamp -->
+                      <h4>
+                        Grupo CI&CC
+                        <small><i class="fa fa-clock-o"></i> 5 munitos</small>
+                      </h4>
+                      <!-- The message -->
+                      <p>¡Ya está lista la nueva versión de CreAvi!</p>
+                    </a>
+                  </li>
+                  <!-- end message -->
+                </ul>
+                <!-- /.menu -->
+              </li>
+              <li class="footer"><a href="#">Ver todos los mensajes</a></li>
+            </ul>
+          </li>
+          <!-- /.messages-menu -->
+
+          <!-- Notifications Menu -->
+          <li class="dropdown notifications-menu">
+            <!-- Menu toggle button -->
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-bell-o"></i>
+              <span class="label label-warning">10</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="header">Tiene 10 Notificaciones</li>
+              <li>
+                <!-- Inner Menu: contains the notifications -->
+                <ul class="menu">
+                  <li><!-- start notification -->
+                    <a href="#">
+                      <i class="fa fa-users text-aqua"></i> 5 nuevos miembros hoy
+                    </a>
+                  </li>
+                  <!-- end notification -->
+                </ul>
+              </li>
+              <li class="footer"><a href="#">Ver todas las notificaciones</a></li>
+            </ul>
+          </li>
+          <!-- Tasks Menu -->
+          <li class="dropdown tasks-menu">
+            <!-- Menu Toggle Button -->
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-flag-o"></i>
+              <span class="label label-danger">9</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="header">Tiene 9 tareas</li>
+              <li>
+                <!-- Inner menu: contains the tasks -->
+                <ul class="menu">
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <!-- Task title and progress text -->
+                      <h3>
+                        Diseñar nuevas actividades
+                        <small class="pull-right">20%</small>
+                      </h3>
+                      <!-- The progress bar -->
+                      <div class="progress xs">
+                        <!-- Change the css width attribute to simulate progress -->
+                        <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">20% Complete</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- end task item -->
+                </ul>
+              </li>
+              <li class="footer">
+                <a href="#">ver todas las tareas</a>
+              </li>
+            </ul>
+          </li>
+          <!-- User Account Menu -->
+          <li class="dropdown user user-menu">
+            <!-- Menu Toggle Button -->
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <!-- The user image in the navbar-->
+              <img src="img/user2-160x160.jpg" class="user-image" alt="User Image">
+              <!-- hidden-xs hides the username on small devices so only the image appears. -->
+              <span class="hidden-xs">Juan Carlos Giraldo</span>
+            </a>
+            <ul class="dropdown-menu">
+              <!-- The user image in the menu -->
+              <li class="user-header">
+                <img src="img/user2-160x160.jpg" class="img-circle" alt="User Image">
+
+                <p>
+                  Jucagi - Director
+                  <small>Miembro desde Abril de 2016</small>
+                </p>
+              </li>
+              <!-- Menu Body -->
+              <li class="user-body">
+                <div class="row">
+                  <div class="col-xs-4 text-center">
+                    <a href="#">Reseña</a>
+                  </div>
+                  <div class="col-xs-4 text-center">
+                    <a href="#">CvLac</a>
+                  </div>
+                  <div class="col-xs-4 text-center">
+                    <a href="#">Contactos</a>
+                  </div>
+                </div>
+                <!-- /.row -->
+              </li>
+              <!-- Menu Footer-->
+              <li class="user-footer">
+                <div class="pull-left">
+                  <a href="#" class="btn btn-default btn-flat">Perfil</a>
+                </div>
+                <div class="pull-right">
+                  <a href="#" class="btn btn-default btn-flat">Salir</a>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Control Sidebar Toggle Button -->
+          <li>
+            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- Left side column. contains the logo and sidebar -->
+  <aside class="main-sidebar">
+
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel">
+        <div class="pull-left image">
+          <img src="img/user2-160x160.jpg" class="img-circle" alt="User Image">
+        </div>
+        <div class="pull-left info">
+          <p>Juan Carlos Giraldo</p>
+          <!-- Status -->
+          <a href="#"><i class="fa fa-circle text-success"></i> en línea</a>
+        </div>
+      </div>
+
+      <!-- search form (Optional) -->
+      <form action="#" method="get" class="sidebar-form">
+        <div class="input-group">
+          <input type="text" name="q" class="form-control" placeholder="Search...">
+              <span class="input-group-btn">
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+              </span>
+        </div>
+      </form>
+      <!-- /.search form -->
+
+      <!-- Sidebar Menu -->
+      <ul class="sidebar-menu">
+        <li class="header">Opciones</li>
+        <!-- Optionally, you can add icons to the links -->
+        <li class="treeview">
+          <a href="#"><i class="fa fa-file-o"></i> <span>Páginas</span> <i class="fa fa-angle-left pull-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a href="#">Al mismo nivel</a></li>
+            <li><a href="#">Sub Página</a></li>
+          </ul>
+        </li>
+        <li class="active"><a href="#"><i class="fa fa-pencil-square-o"></i> <span>Editar</span></a></li>
+        <li><a href="javascript:crearMensaje();"><i class="fa fa-hand-o-up"></i> <span>Insertar</span></a></li>
+      </ul>
+      <!-- /.sidebar-menu -->
+    </section>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        CREAVI
+        <small>Creación de Recursos Educativos Abiertos Virtuales e Interactivos</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Inicio</a></li>
+        <li class="active">Presentación</li>
+      </ol>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+      <!-- Your Page Content Here -->
+
+      <div class="row">
+        <div id="mensajes" class="col-md-8">
+
+          <script src="js/elementos.js" charset="utf-8">
+
+          </script>
+          <script type="text/javascript">
+              function crearMensaje () {
+                var elemento = primerMensaje();
+                document.getElementById("mensajes").appendChild(elemento);
+                console.log(elemento);
+                //document.write("hola");
+              }
+          </script>
+
+         <div class="box box-solid box-success">
+           <div class="box-header">
+             <h3 class="box-title">Licenciatura en Informática y Medios Audiovisuales</h3>
+           </div><!-- /.box-header -->
+           <div class="box-body">
+             <p class="lead">Esta es la respuesta de la Licenciatura en Informática y Medios Audiovisuales a la necesidad de contar con una herramienta versail y moderna para construir <emp>REDAS</emp> Recursos Educativos Digitales Abiertos.</p>
+             <button onclick="crearMensaje()" type="button" name="button">Crear</button>
+           </div><!-- /.box-body -->
+         </div><!-- /.box -->
+      </div><!-- /.col-md -->
+      <div class="col-md-4">
+      <!-- Construct the box with style you want. Here we are using box-danger -->
+      <!-- Then add the class direct-chat and choose the direct-chat-* contexual class -->
+      <!-- The contextual class should match the box, so we are using direct-chat-danger -->
+      <div class="box box-danger direct-chat direct-chat-danger">
+        <div class="box-header with-border">
+          <h3 class="box-title">CreAvi</h3>
+          <div class="box-tools pull-right">
+            <span data-toggle="tooltip" title="3 Nuevos Mensajes" class="badge bg-red">3</span>
+            <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+            <!-- In box-tools add this button if you intend to use the contacts pane -->
+            <button class="btn btn-box-tool" data-toggle="tooltip" title="Contacts" data-widget="chat-pane-toggle"><i class="fa fa-comments"></i></button>
+            <button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+          </div>
+        </div><!-- /.box-header -->
+        <div class="box-body">
+          <!-- Conversations are loaded here -->
+          <div class="direct-chat-messages">
+            <!-- Message. Default to the left -->
+            <div class="direct-chat-msg">
+              <div class="direct-chat-info clearfix">
+                <span class="direct-chat-name pull-left">Juan Carlos Giraldo</span>
+                <span class="direct-chat-timestamp pull-right">23 Abril 2:00 pm</span>
+              </div><!-- /.direct-chat-info -->
+              <img class="direct-chat-img" src="img/user2-160x160.jpg" alt="message user image"><!-- /.direct-chat-img -->
+              <div class="direct-chat-text">
+                Se espera que este entorno abierto y libre permita a la comunidad de usuarios impulsar su desarrollo y ampliar sus características.
+              </div><!-- /.direct-chat-text -->
+            </div><!-- /.direct-chat-msg -->
+
+            <!-- Message to the right -->
+            <div class="direct-chat-msg right">
+              <div class="direct-chat-info clearfix">
+                <span class="direct-chat-name pull-right">Alexander Toscano</span>
+                <span class="direct-chat-timestamp pull-left">23 Abril 2:05 pm</span>
+              </div><!-- /.direct-chat-info -->
+              <img class="direct-chat-img" src="img/user1-128x128.jpg" alt="message user image"><!-- /.direct-chat-img -->
+              <div class="direct-chat-text">
+                ¡Están todos invitados a realizar sus aportes!
+              </div><!-- /.direct-chat-text -->
+            </div><!-- /.direct-chat-msg -->
+          </div><!--/.direct-chat-messages-->
+
+          <!-- Contacts are loaded here -->
+          <div class="direct-chat-contacts">
+            <ul class="contacts-list">
+              <li>
+                <a href="#">
+                  <img class="contacts-list-img" src="img/user1-128x128.jpg" alt="Contact Avatar">
+                  <div class="contacts-list-info">
+                    <span class="contacts-list-name">
+                      Alex Toscano
+                      <small class="contacts-list-date pull-right">2/28/2015</small>
+                    </span>
+                    <span class="contacts-list-msg">¿Cómo van los avances?</span>
+                  </div><!-- /.contacts-list-info -->
+                </a>
+              </li><!-- End Contact Item -->
+            </ul><!-- /.contatcts-list -->
+          </div><!-- /.direct-chat-pane -->
+        </div><!-- /.box-body -->
+<!--
+        <div class="box-footer">
+          <div class="input-group">
+            <input type="text" name="message" placeholder="Type Message ..." class="form-control">
+            <span class="input-group-btn">
+              <button type="button" class="btn btn-danger btn-flat">Enviar</button>
+            </span>
+          </div>
+        </div><!-- /.box-footer-->
+
+        </div><!--/.direct-chat -->
+      </div><!-- /.col-md -->
+    </div> <!-- /.row -->
+
+
+
+      <h3 id="component-info-box">Estadísticas</h3>
+        <!-- Info Boxes -->
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+              <span class="info-box-icon bg-aqua"><i class="fa fa-envelope-o"></i></span>
+              <div class="info-box-content">
+                <span class="info-box-text">Mensajes</span>
+                <span class="info-box-number">1,410</span>
+              </div><!-- /.info-box-content -->
+            </div><!-- /.info-box -->
+          </div><!-- /.col -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+              <span class="info-box-icon bg-green"><i class="fa fa-arrow-circle-o-down"></i></span>
+              <div class="info-box-content">
+                <span class="info-box-text">Descargas</span>
+                <span class="info-box-number">410</span>
+              </div><!-- /.info-box-content -->
+            </div><!-- /.info-box -->
+          </div><!-- /.col -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+              <span class="info-box-icon bg-yellow"><i class="fa fa-files-o"></i></span>
+              <div class="info-box-content">
+                <span class="info-box-text">Cargas</span>
+                <span class="info-box-number">13,648</span>
+              </div><!-- /.info-box-content -->
+            </div><!-- /.info-box -->
+          </div><!-- /.col -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box">
+              <span class="info-box-icon bg-red"><i class="fa fa-star-o"></i></span>
+              <div class="info-box-content">
+                <span class="info-box-text">Destacados</span>
+                <span class="info-box-number">93,139</span>
+              </div><!-- /.info-box-content -->
+            </div><!-- /.info-box -->
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+
+
+        <!-- <h4>Second Type of Info Boxes</h4> -->
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box bg-aqua">
+              <span class="info-box-icon"><i class="fa fa-bookmark-o"></i></span>
+              <div class="info-box-content">
+                <span class="info-box-text">Bookmarks</span>
+                <span class="info-box-number">41,410</span>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 70%"></div>
+                </div>
+                <span class="progress-description">
+                  Un incremento del 70% en 30 días
+                </span>
+              </div><!-- /.info-box-content -->
+            </div><!-- /.info-box -->
+          </div><!-- /.col -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box bg-green">
+              <span class="info-box-icon"><i class="fa fa-thumbs-o-up"></i></span>
+              <div class="info-box-content">
+                <span class="info-box-text">Likes</span>
+                <span class="info-box-number">41,410</span>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 50%"></div>
+                </div>
+                <span class="progress-description">
+                  Un incremento del 50% en 30 días
+                </span>
+              </div><!-- /.info-box-content -->
+            </div><!-- /.info-box -->
+          </div><!-- /.col -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box bg-yellow">
+              <span class="info-box-icon"><i class="fa fa-calendar"></i></span>
+              <div class="info-box-content">
+                <span class="info-box-text">Eventos</span>
+                <span class="info-box-number">41,410</span>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 30%"></div>
+                </div>
+                <span class="progress-description">
+                  Incremento del 30% en 60 días
+                </span>
+              </div><!-- /.info-box-content -->
+            </div><!-- /.info-box -->
+          </div><!-- /.col -->
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box bg-red">
+              <span class="info-box-icon"><i class="fa fa-comments-o"></i></span>
+              <div class="info-box-content">
+                <span class="info-box-text">Comentarios</span>
+                <span class="info-box-number">41,410</span>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 60%"></div>
+                </div>
+                <span class="progress-description">
+                  Incremento del 60% en 30 días
+                </span>
+              </div><!-- /.info-box-content -->
+            </div><!-- /.info-box -->
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+
+
+
+
+
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <!-- To the right -->
+    <div class="pull-right hidden-xs">
+      LIEMAV 2016
+    </div>
+    <!-- Default to the left -->
+    <strong>Copyright &copy; 2016 <a href="#">Grupo CI&CC - AVI</a>.</strong> All rights reserved.
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Create the tabs -->
+    <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
+      <li class="active"><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
+      <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <!-- Home tab content -->
+      <div class="tab-pane active" id="control-sidebar-home-tab">
+        <h3 class="control-sidebar-heading">Actividad Reciente</h3>
+        <ul class="control-sidebar-menu">
+          <li>
+            <a href="javascript::;">
+              <i class="menu-icon fa fa-desktop bg-red"></i>
+
+              <div class="menu-info">
+                <h4 class="control-sidebar-subheading">Entrega de versión Alpha</h4>
+                <p>Programada para el 25 de mayo 2016</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <!-- /.control-sidebar-menu -->
+
+        <h3 class="control-sidebar-heading">Progreso de Tareas</h3>
+        <ul class="control-sidebar-menu">
+          <li>
+            <a href="javascript::;">
+              <h4 class="control-sidebar-subheading">
+                Personalizar el diseño de la plantilla
+                <span class="label label-danger pull-right">55%</span>
+              </h4>
+
+              <div class="progress progress-xxs">
+                <div class="progress-bar progress-bar-danger" style="width: 70%"></div>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <!-- /.control-sidebar-menu -->
+
+      </div>
+      <!-- /.tab-pane -->
+      <!-- Stats tab content -->
+      <div class="tab-pane" id="control-sidebar-stats-tab">Contenido Pestaña de Configuración</div>
+      <!-- /.tab-pane -->
+      <!-- Settings tab content -->
+      <div class="tab-pane" id="control-sidebar-settings-tab">
+        <form method="post">
+          <h3 class="control-sidebar-heading">Configuración General</h3>
+
+          <div class="form-group">
+            <label class="control-sidebar-subheading">
+              Usar panel de reportes
+              <input type="checkbox" class="pull-right" checked>
+            </label>
+
+            <p>
+              Se presentarán reportes periódicos de los avances en las tareas pendientes
+            </p>
+          </div>
+          <!-- /.form-group -->
+        </form>
+      </div>
+      <!-- /.tab-pane -->
+    </div>
+  </aside>
+  <!-- /.control-sidebar -->
+  <!-- Add the sidebar's background. This div must be placed
+       immediately after the control sidebar -->
+  <div class="control-sidebar-bg"></div>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED JS SCRIPTS -->
+
+<!-- jQuery 2.2.0 -->
+<script src="js/jquery-2.0.0.min.js"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="js/bootstrap.min.js"></script>
+<!-- AdminLTE App -->
+<script src="js/app.min.js"></script>
+
+<!-- Optionally, you can add Slimscroll and FastClick plugins.
+     Both of these plugins are recommended to enhance the
+     user experience. Slimscroll is required when using the
+     fixed layout. -->
+</body>
+</html>
