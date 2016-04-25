@@ -1,3 +1,7 @@
+# CreAvi
+ Creación de Recursos Educativos, Abiertos, Adaptativos, Virtuales e Interactivos
+ Esta es la primera versión, basada en electron-quick-start, con bootstrap su plantilla AdminLTE.  
+  
 # electron-quick-start
 
 **Clone and run for a quick way to see an Electron in action.**
